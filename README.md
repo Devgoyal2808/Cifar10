@@ -25,7 +25,7 @@ The dataset is comprised of 60,000 32×32 pixel color photographs of objects fro
 9: truck
 
 we use 50,000 for train and 10,000 as test data set.
-PCA(We have applied Principal Conponent Analysis using Eigen vectors,Eigen values and reduced the data from 60,000*32*32*3 to 60,000*658 maintaning 99% of information intact.
+PCA(We have applied Principal Conponent Analysis using Eigen vectors,Eigen values and reduced the data from 60,000x32x32x3 to 60,000x658 maintaning 99% of information intact.
 We than further used the data with different Machine Learning algorithms like:
 
 Decision Tree.
@@ -38,4 +38,5 @@ Support vector Machine.
 
 K nearest neighbors.
 
-and check which one works best to predict the results:
+and check which one works best to predict the category photo belongs to. This can be used in: 
+# Recaptcha, I am not a robot
