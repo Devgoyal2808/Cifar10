@@ -25,7 +25,7 @@ The dataset is comprised of 60,000 32×32 pixel color photographs of objects fro
 9: truck
 
 we use 50,000 for train and 10,000 as test data set.
-PCA(We have applied Principal Conponent Analysis using Eigen vectors,Eigen values and reduced the data from 60,000x32x32x3 to 60,000x658 maintaning 99% of information intact.
+PCA(We have applied Principal Conponent Analysis by rotating axis of graph between all possible feature pair and calculated Eigen vectors,Eigen values in direction and reduced the data from 60,000x32x32x3 to 60,000x658 maintaning 99% of information intact.
 We than further used the data with different Machine Learning algorithms like:
 
 Decision Tree.
